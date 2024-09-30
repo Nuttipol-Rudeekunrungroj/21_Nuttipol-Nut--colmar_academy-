@@ -196,9 +196,12 @@ header {
 }
 .course_row2-box :hover{
     opacity: 0.5;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    color: rgb(49, 7, 7);  
+   
+    color: rgb(49, 7, 7);
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
+      
 }
 .course_row2-box img {
     width: 100%;
@@ -239,7 +242,11 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+
 }
 .mobile_info_col_img {
     display: flex;
@@ -261,13 +268,58 @@ header {
     color: blue;
 }
 .mobile_info_col :hover{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(200, 200, 200); 
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
 }
+
 .mobile_info_col-text p{
     margin-top: 1.5rem;
 }
 
+/*course section*/
+.mobile_course {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%
+}
+.mobile_course_title{
+    margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.mobile_course_box{
+    width: 90%;
+}
+.mobile_course_list li{
+    margin: 1rem;
+    list-style: none;
+    text-decoration: none;
+}
+.mobile_course_list li a{
+    text-decoration: none;
+    color: black;
+}
+.mobile_course_list li h4{
+    background-color: rgb(200, 200, 200);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;   
+}
+.mobile_course_list li :hover{
+    background-color:rgb(128, 139, 168);
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
+    
+    
 
+}
 
 
 
@@ -317,7 +369,8 @@ header {
 
     .mobile_header,
     .mobile_menu,
-    .mobile_info_col
+    .mobile_info_col,
+    .mobile_course
      {
         display: none;
     }
