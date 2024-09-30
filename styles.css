@@ -36,6 +36,12 @@ header {
 .menu li a {
     text-decoration: none;
 }
+.menu li a:hover { 
+    color: rgb(49, 7, 7);
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
+}
 
 /*hero section*/
 .hero {
@@ -165,6 +171,14 @@ header {
     text-decoration: none;
     color: blue;
 }
+.info_col2-text a:hover { 
+    color: red;
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
+}
+
+
 
 /*course section*/
 .course {
@@ -260,6 +274,10 @@ header {
 }
 .thesis_col2_box:hover { 
     background-color: rgb(200, 200, 200);
+    color: rgb(49, 7, 7);
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
 }
 .thesis_col2_box img {  
     width: 35%;
@@ -281,6 +299,40 @@ header {
     margin-bottom: 1.5rem;
 }
 
+/*footer*/
+footer {
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;   
+    background-color: rgb(200, 200, 200);
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    
+}
+.footer_text p{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.footer_menu li {  
+    margin-right: 1rem;
+}
+
+.footer_menu li a {
+    text-decoration: none;  
+}
+.footer_menu li a:hover { 
+    color: rgb(49, 7, 7);
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: large;
+}
 
 
 
@@ -298,6 +350,7 @@ header {
     list-style: none;
     width: 100%
 }
+
 
 /*information section*/
 
@@ -406,7 +459,9 @@ header {
     .menu,
     .information,
     .course,
-    .thesis {
+    .thesis,
+    .footer_menu 
+    {
         display: none;
     }
 
@@ -432,11 +487,13 @@ header {
         width: 90%;
         align-self: center;
     }
+
+     /*footer*/
+     .footer_text p{
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    margin-bottom: 1rem;}
 }
-
-
-
-
 
 
 @media only screen and (min-width: 768px) {
