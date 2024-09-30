@@ -166,6 +166,53 @@ header {
     color: blue;
 }
 
+/*course section*/
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(200, 200, 200);
+}
+.course_row1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.course_row2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 4.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+}
+.course_row2-box {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+.course_row2-box :hover{
+    opacity: 0.5;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    color: rgb(49, 7, 7);  
+}
+.course_row2-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.course_row2-box h2 {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+.course_row2-box p {
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+}
 
 
 
@@ -232,7 +279,8 @@ header {
     header,
     .logo,
     .menu,
-    .information {
+    .information,
+    .course {
         display: none;
     }
 
